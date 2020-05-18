@@ -5,16 +5,16 @@
 $gray: #F4F4F454;
 
 body {
-  background: $gray; // Using this variable
-}
-
-.ask {
+  background: $gray;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   min-height: 100vh;
+  font-family: roboto;
+}
 
+.ask {
   input {
   border: 1px solid gray;
   background: white;
