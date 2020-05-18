@@ -1,0 +1,24 @@
+// Place all the styles related to the Questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+$gray: #F4F4F454;
+
+body {
+  background: $gray; // Using this variable
+}
+
+.ask {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+
+  input {
+  border: 1px solid gray;
+  background: white;
+  border-radius: 4px;
+  padding: 10px;
+  }
+}
